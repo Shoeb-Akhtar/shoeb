@@ -1,0 +1,59 @@
+<?php
+class String_Parse
+{
+    public $first;
+
+    function __construct($first)
+    {
+       // $this->first=$first;
+        //$this->second=$second;
+    }
+    public function show_Count()
+    {
+       // $this->first=$first;
+        $r=$this->first;
+        return str_split($r,1);
+        /*$n=str_split($r,1);
+        $f=count($m);
+        $s=count($n);
+        if($f<=$s)
+        {
+            for($i=0;$i<$f;$i++)
+            {
+                if($m[$i]==$n[$i])
+                {
+                        var_dump($m[$i]);        
+                }
+                  
+            }
+        
+             //continue;
+        
+        }
+       /* if($f!=$s)
+        {
+            for($i=0;$i<$f;$i++)
+            {
+                if($m[$i]!=$n[$i])
+                {
+                        var_dump($m[$i]);
+                }
+                
+            }
+        
+        }*/
+        
+    }
+    /* function str_Count()
+    {
+        $j=$this->first;
+        return count($j);
+    }*/
+}
+
+/*$obj=new String_Parse("ice","icecream");
+//$obj->first="ice";
+//$obj->second="icecream";
+
+var_dump($obj->show_Count());*/
+?>
